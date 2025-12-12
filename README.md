@@ -31,7 +31,7 @@ chmod 644 ~/.ssh/id_rsa.pub     # public key: readable
 start the ssh-agent in the background
 ```
 eval "$(ssh-agent -s)"
-#add your key to the agent
+# add your key to the agent
 ssh-add ~/.ssh/id_rsa
 ```
 #### Using PowerShell (Windows 10/11 built-in OpenSSH)
@@ -46,7 +46,7 @@ ssh-add $env:USERPROFILE\.ssh\id_rsa
 ```
 # check remote
 git remote -v
-# If remote is HTTPS (like https://github.com/user/repo.git), change it to SSH:```
+# If remote is HTTPS (like https://github.com/user/repo.git), change it to SSH:
 git remote set-url origin git@github.com:your-github-username/your-repo.git
 ```
 #### Test the SSH connection to GitHub
