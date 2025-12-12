@@ -4,11 +4,13 @@
 ```
 mkdir -p ~/.ssh
 ```
-##### Copy your key files into ~/.ssh. If they are currently in Downloads, e.g : (id_rsa.pub OR id_rsa)
+#### Loading the private key into the ssh-agent (id_rsa), adding the public key to GitHub (id_rsa.pub)
+e.g : (id_rsa.pub OR id_rsa)
 If the files doesn't exist then create this:
 ```
 ssh-keygen  #Type Enter(default)
 ```
+##### Copy your key files into ~/.ssh. If they are currently in Downloads
 example: adjust path to where your files are
 ```
 mv /c/Users/YourUser/Downloads/id_rsa.pub ~/.ssh/
