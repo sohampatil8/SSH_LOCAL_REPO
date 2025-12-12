@@ -1,8 +1,9 @@
 ### Take access of github repository to your local machine (windows/git) to push your code at GitHub
 
 #### Open Git Bash (or PowerShell) and run:
+```
 mkdir -p ~/.ssh
-
+```
 ##### Copy your key files into ~/.ssh. If they are currently in Downloads, e.g.:
 example: adjust path to where your files are
 ```
