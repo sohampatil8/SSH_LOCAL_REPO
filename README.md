@@ -4,7 +4,11 @@
 ```
 mkdir -p ~/.ssh
 ```
-##### Copy your key files into ~/.ssh. If they are currently in Downloads, e.g.:
+##### Copy your key files into ~/.ssh. If they are currently in Downloads, e.g : (id_rsa.pub OR id_rsa)
+If the files doesn't exist then create this:
+```
+ssh-keygen  #Type Enter(default)
+```
 example: adjust path to where your files are
 ```
 mv /c/Users/YourUser/Downloads/id_rsa.pub ~/.ssh/
