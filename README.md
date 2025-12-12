@@ -13,8 +13,8 @@ ssh-keygen  #Type Enter(default)
 ##### Copy your key files into ~/.ssh. If they are currently in Downloads
 example: adjust path to where your files are
 ```
-mv /c/Users/YourUser/Downloads/id_rsa.pub ~/.ssh/
-mv /c/Users/YourUser/Downloads/id_rsa.pem ~/.ssh/
+mv /c/Users/Downloads/id_rsa.pub ~/.ssh/
+mv /c/Users/Downloads/id_rsa.pem ~/.ssh/
 ```
 If the private key file is named id_rsa.pem, rename it to id_rsa
 ```
