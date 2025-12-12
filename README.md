@@ -1,5 +1,4 @@
-# SSH_LOCAL_REPO
-Take access of github repository to your local machine (windows/git) to push your code at GitHub
+###Take access of github repository to your local machine (windows/git) to push your code at GitHub
 
 ####Open Git Bash (or PowerShell) and run:
 mkdir -p ~/.ssh
